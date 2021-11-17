@@ -1,68 +1,39 @@
-#doboz1{
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+}
+
+a, a:visited, a:link{
+    color: #336600
+}
+a:hover {
+    color:lightgreen;
+}
+
+
+#cim{
+    display: block;
+    margin:auto;
+}
+
+p:first-of-type{
+    font-weight: bold;
+    font-style: italic;
+}
+h2,h3 {
+    color: #22B14C;
+}
+#noveny {
+    display: block;
+    margin: auto;
     position: absolute;
-    height: 10%;
-    width: 100%;
-    background-color:red ;
-    border:black;
-    border-radius: 5px;
-    display: flex;
-    color: red;
-    }
-    #doboz2 {
-        top: 10%;
-        position: absolute;
-        height: 25%;
-        width: 100%;
-        background-color:green ;
-        border:black;
-        border-radius: 5px;
-        display: flex;
-        color: green;
-    }
-    #doboz3 {
-        top: 35%;
-        position: absolute;
-        height: 50%;
-        width: 34%;
-        background-color:rgb(156, 154, 172) ;
-        border:black;
-        border-radius: 5px;
-        display: flex;
-        color: rgb(20, 134, 39);
-    }
-    
-    #doboz4 {
-        left: 33%;
-        top: 35%;
-        position: absolute;
-        height: 50%;
-        width: 34%;
-        background-color:rgb(143, 135, 143) ;
-        border:black;
-        border-radius: 5px;
-        display: flex;
-        color: purple;
-    }
-    #doboz5 {
-        left: 66%;
-        top: 35%;
-        position: absolute;
-        height: 50%;
-        width: 34%;
-        background-color:rgb(189, 173, 173);
-        border:black;
-        border-radius: 5px;
-        display: flex;
-        color: brown;
-    }
-    #doboz6 {
-        top:85%;
-        position: absolute;
-        height: 25%;
-        width: 100%;
-        background-color:orange ;
-        border:black;
-        border-radius: 5px;
-        display: flex;
-        color:rgb(192, 56, 185);
-    }
+    right: 10px;
+    top: 55%;
+    border: black 2px solid;
+}
+table {
+    position: relative;
+    left: 45%;
+    width: 200px;
+}
